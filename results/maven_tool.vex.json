@@ -1,0 +1,828 @@
+{
+  "vulnerabilities": [{
+    "ref": "ch.qos.logback:logback-classic:1.2.7",
+    "id": "GHSA-vmq6-5m68-f53m",
+    "source": {
+      "url": "https://github.com/qos-ch/logback/issues/745#issuecomment-1836227158",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.1,
+        "impact": 4.0,
+        "exploitability": 2.5
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 502
+    }],
+    "description": "logback serialization vulnerability",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2023-6378"]
+  }, {
+    "ref": "ch.qos.logback:logback-core:1.2.7",
+    "id": "GHSA-668q-qrv7-99fm",
+    "source": {
+      "url": "https://github.com/qos-ch/logback/commit/87291079a1de9369ac67e20dc70a8fdc7cc4359c",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 6.6,
+        "impact": 5.9,
+        "exploitability": 0.7
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }],
+    "cwes": [{
+      "cwe": 502
+    }],
+    "description": "Deserialization of Untrusted Data in logback",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2021-42550"]
+  }, {
+    "ref": "ch.qos.logback:logback-core:1.2.7",
+    "id": "GHSA-vmq6-5m68-f53m",
+    "source": {
+      "url": "https://github.com/qos-ch/logback/issues/745#issuecomment-1836227158",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.1,
+        "impact": 4.0,
+        "exploitability": 2.5
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 502
+    }],
+    "description": "logback serialization vulnerability",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2023-6378"]
+  }, {
+    "ref": "com.fasterxml.jackson.core:jackson-databind:2.13.0",
+    "id": "GHSA-3x8x-79m2-3w2w",
+    "source": {
+      "url": "https://github.com/FasterXML/jackson-databind/issues/3328",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "description": "jackson-databind possible Denial of Service if using JDK serialization to serialize JsonNode",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2021-46877"]
+  }, {
+    "ref": "com.fasterxml.jackson.core:jackson-databind:2.13.0",
+    "id": "GHSA-57j2-w4cx-62h2",
+    "source": {
+      "url": "https://github.com/FasterXML/jackson-databind/issues/2816",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 787
+    }],
+    "description": "Deeply nested json in jackson-databind",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2020-36518"]
+  }, {
+    "ref": "com.fasterxml.jackson.core:jackson-databind:2.13.0",
+    "id": "GHSA-jjjh-jjxp-wpff",
+    "source": {
+      "url": "https://github.com/FasterXML/jackson-databind/issues/3590",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 400
+    }, {
+      "cwe": 502
+    }],
+    "description": "Uncontrolled Resource Consumption in Jackson-databind",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-42003"]
+  }, {
+    "ref": "com.fasterxml.jackson.core:jackson-databind:2.13.0",
+    "id": "GHSA-rgv9-q543-rqg4",
+    "source": {
+      "url": "https://github.com/FasterXML/jackson-databind/issues/3582",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 400
+    }, {
+      "cwe": 502
+    }],
+    "description": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-42004"]
+  }, {
+    "ref": "com.google.code.gson:gson:2.8.8",
+    "id": "GHSA-4jrv-ppp4-jm57",
+    "source": {
+      "url": "https://github.com/google/gson/pull/1991",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.7,
+        "impact": 5.5,
+        "exploitability": 2.2
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H"
+    }],
+    "cwes": [{
+      "cwe": 502
+    }],
+    "description": "Deserialization of Untrusted Data in Gson",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-25647"]
+  }, {
+    "ref": "com.google.guava:guava:31.0.1-jre",
+    "id": "GHSA-5mg8-w23w-74h3",
+    "source": {
+      "url": "https://github.com/google/guava/issues/4011",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 3.3,
+        "impact": 1.4,
+        "exploitability": 1.8
+      },
+      "severity": "LOW",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }],
+    "cwes": [{
+      "cwe": 173
+    }, {
+      "cwe": 200
+    }, {
+      "cwe": 378
+    }, {
+      "cwe": 732
+    }],
+    "description": "Information Disclosure in Guava",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2020-8908"]
+  }, {
+    "ref": "com.google.guava:guava:31.0.1-jre",
+    "id": "GHSA-7g45-4rm6-3mm3",
+    "source": {
+      "url": "https://github.com/google/guava/issues/2575",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 5.5,
+        "impact": 3.6,
+        "exploitability": 1.8
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }],
+    "cwes": [{
+      "cwe": 379
+    }, {
+      "cwe": 552
+    }],
+    "description": "Guava vulnerable to insecure use of temporary directory",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2023-2976"]
+  }, {
+    "ref": "com.google.protobuf:protobuf-java:3.11.4",
+    "id": "GHSA-4gg5-vx3j-xwc7",
+    "source": {
+      "url": "https://github.com/protocolbuffers/protobuf/commit/db7c17803320525722f45c1d26fc08bc41d1bf48",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 400
+    }],
+    "description": "Protobuf Java vulnerable to Uncontrolled Resource Consumption",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-3510"]
+  }, {
+    "ref": "com.google.protobuf:protobuf-java:3.11.4",
+    "id": "GHSA-77rm-9x9h-xj3g",
+    "source": {
+      "url": "https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.0",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 476
+    }],
+    "description": "NULL Pointer Dereference in Protocol Buffers",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2021-22570"]
+  }, {
+    "ref": "com.google.protobuf:protobuf-java:3.11.4",
+    "id": "GHSA-g5ww-5jh7-63cx",
+    "source": {
+      "url": "https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 400
+    }],
+    "description": "Protobuf Java vulnerable to Uncontrolled Resource Consumption",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-3509"]
+  }, {
+    "ref": "com.google.protobuf:protobuf-java:3.11.4",
+    "id": "GHSA-h4h5-3hr4-j3g2",
+    "source": {
+      "url": "https://github.com/protocolbuffers/protobuf/security/advisories/GHSA-h4h5-3hr4-j3g2",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 5.7,
+        "impact": 3.6,
+        "exploitability": 2.1
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 20
+    }],
+    "description": "protobuf-java has a potential Denial of Service issue",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-3171"]
+  }, {
+    "ref": "com.google.protobuf:protobuf-java:3.11.4",
+    "id": "GHSA-wrvw-hg22-4m67",
+    "source": {
+      "url": "https://github.com/protocolbuffers/protobuf/security/advisories/GHSA-wrvw-hg22-4m67",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 696
+    }],
+    "description": "A potential Denial of Service issue in protobuf-java",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2021-22569"]
+  }, {
+    "ref": "junit:junit:4.13",
+    "id": "GHSA-269g-pwp5-87pp",
+    "source": {
+      "url": "https://github.com/junit-team/junit4/security/advisories/GHSA-269g-pwp5-87pp",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 4.4,
+        "impact": 3.6,
+        "exploitability": 0.8
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N"
+    }],
+    "cwes": [{
+      "cwe": 200
+    }, {
+      "cwe": 732
+    }],
+    "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2020-15250"]
+  }, {
+    "ref": "mysql:mysql-connector-java:8.0.27",
+    "id": "GHSA-g76j-4cxx-23h9",
+    "source": {
+      "url": "https://www.oracle.com/security-alerts/cpujan2022.html",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 6.6,
+        "impact": 5.9,
+        "exploitability": 0.7
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }],
+    "cwes": [{
+      "cwe": 280
+    }],
+    "description": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-21363"]
+  }, {
+    "ref": "org.springframework.boot:spring-boot-autoconfigure:2.6.1",
+    "id": "GHSA-xf96-w227-r7c4",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-boot/issues/35552",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 400
+    }],
+    "description": "Spring Boot Welcome Page Denial of Service",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2023-20883"]
+  }, {
+    "ref": "org.springframework:spring-beans:5.3.13",
+    "id": "GHSA-36p3-wjmg-h94x",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/commit/002546b3e4b8d791ea6acccb81eb3168f51abb15",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 9.8,
+        "impact": 5.9,
+        "exploitability": 3.9
+      },
+      "severity": "CRITICAL",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }],
+    "cwes": [{
+      "cwe": 74
+    }, {
+      "cwe": 94
+    }],
+    "description": "Remote Code Execution in Spring Framework",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-22965"]
+  }, {
+    "ref": "org.springframework:spring-beans:5.3.13",
+    "id": "GHSA-hh26-6xwr-ggv7",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/commit/50177b1ad3485bd44239b1756f6c14607476fcf2",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 770
+    }],
+    "description": "Denial of service in Spring Framework",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-22970"]
+  }, {
+    "ref": "org.springframework:spring-context:5.3.13",
+    "id": "GHSA-g5mm-vmx4-3rg7",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/commit/833e750175349ab4fd502109a8b41af77e25cdea",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }],
+    "cwes": [{
+      "cwe": 178
+    }],
+    "description": "Improper handling of case sensitivity in Spring Framework",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-22968"]
+  }, {
+    "ref": "org.springframework:spring-core:5.3.13",
+    "id": "GHSA-6gf2-pvqw-37ph",
+    "source": {
+      "url": "https://tanzu.vmware.com/security/cve-2021-22060",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 4.3,
+        "impact": 1.4,
+        "exploitability": 2.8
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    }],
+    "description": "Log entry injection in Spring Framework",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2021-22060"]
+  }, {
+    "ref": "org.springframework:spring-expression:5.3.13",
+    "id": "GHSA-558x-2xjg-6232",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/issues/28145",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 6.5,
+        "impact": 3.6,
+        "exploitability": 2.8
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 770
+    }],
+    "description": "Allocation of Resources Without Limits or Throttling in Spring Framework",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-22950"]
+  }, {
+    "ref": "org.springframework:spring-expression:5.3.13",
+    "id": "GHSA-564r-hj7v-mcr5",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/commit/430fc25acad2e85cbdddcd52b64481691f03ebd1",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 6.5,
+        "impact": 3.6,
+        "exploitability": 2.8
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 917
+    }],
+    "description": "Spring Framework vulnerable to denial of service via specially crafted SpEL expression",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2023-20861"]
+  }, {
+    "ref": "org.springframework:spring-expression:5.3.13",
+    "id": "GHSA-wxqc-pxw9-g2p8",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/commit/965a6392757d20f9db19241126fcc719a51eac15",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 400
+    }, {
+      "cwe": 770
+    }, {
+      "cwe": 917
+    }],
+    "description": "Spring Framework vulnerable to denial of service",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2023-20863"]
+  }, {
+    "ref": "org.springframework:spring-web:5.3.13",
+    "id": "GHSA-2wrp-6fg6-hmc5",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/blob/main/spring-web/src/main/java/org/springframework/web/util/UriComponentsBuilder.java",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 8.1,
+        "impact": 5.2,
+        "exploitability": 2.8
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }],
+    "description": "Spring Framework URL Parsing with Host Validation",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2024-22262"]
+  }, {
+    "ref": "org.springframework:spring-web:5.3.13",
+    "id": "GHSA-4wrc-f8pq-fpqp",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/issues/21680",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 9.8,
+        "impact": 5.9,
+        "exploitability": 3.9
+      },
+      "severity": "CRITICAL",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }],
+    "cwes": [{
+      "cwe": 502
+    }],
+    "description": "Pivotal Spring Framework contains unsafe Java deserialization methods",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2016-1000027"]
+  }, {
+    "ref": "org.springframework:spring-web:5.3.13",
+    "id": "GHSA-ccgv-vj62-xf9h",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/blob/main/spring-web/src/main/java/org/springframework/web/util/UriComponentsBuilder.java",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 8.1,
+        "impact": 5.2,
+        "exploitability": 2.8
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }],
+    "description": "Spring Web vulnerable to Open Redirect or Server Side Request Forgery",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2024-22243"]
+  }, {
+    "ref": "org.springframework:spring-web:5.3.13",
+    "id": "GHSA-hgjh-9rj2-g67j",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/commit/297cbae2990e1413537c55845a7e0ea0ffd9f9bb",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 8.1,
+        "impact": 5.2,
+        "exploitability": 2.8
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }],
+    "cwes": [{
+      "cwe": 601
+    }],
+    "description": "Spring Framework URL Parsing with Host Validation Vulnerability",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2024-22259"]
+  }, {
+    "ref": "org.springframework:spring-webmvc:5.3.13",
+    "id": "GHSA-36p3-wjmg-h94x",
+    "source": {
+      "url": "https://github.com/spring-projects/spring-framework/commit/002546b3e4b8d791ea6acccb81eb3168f51abb15",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 9.8,
+        "impact": 5.9,
+        "exploitability": 3.9
+      },
+      "severity": "CRITICAL",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }],
+    "cwes": [{
+      "cwe": 74
+    }, {
+      "cwe": 94
+    }],
+    "description": "Remote Code Execution in Spring Framework",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-22965"]
+  }, {
+    "ref": "org.yaml:snakeyaml:1.29",
+    "id": "GHSA-3mc7-4q67-w48m",
+    "source": {
+      "url": "https://github.com/snakeyaml/snakeyaml/commit/fc300780da21f4bb92c148bc90257201220cf174",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 7.5,
+        "impact": 3.6,
+        "exploitability": 3.9
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 400
+    }, {
+      "cwe": 776
+    }],
+    "description": "Uncontrolled Resource Consumption in snakeyaml",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-25857"]
+  }, {
+    "ref": "org.yaml:snakeyaml:1.29",
+    "id": "GHSA-98wm-3w3q-mw94",
+    "source": {
+      "url": "https://bitbucket.org/snakeyaml/snakeyaml/issues/530/stackoverflow-oss-fuzz-47039",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 6.5,
+        "impact": 3.6,
+        "exploitability": 2.8
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 121
+    }, {
+      "cwe": 787
+    }],
+    "description": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-38751"]
+  }, {
+    "ref": "org.yaml:snakeyaml:1.29",
+    "id": "GHSA-9w3m-gqgf-c4p9",
+    "source": {
+      "url": "https://bitbucket.org/snakeyaml/snakeyaml/issues/531/stackoverflow-oss-fuzz-47081",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 6.5,
+        "impact": 3.6,
+        "exploitability": 2.8
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 121
+    }, {
+      "cwe": 787
+    }],
+    "description": "snakeYAML before 1.32 vulnerable to Denial of Service due to Out-of-bounds Write",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-38752"]
+  }, {
+    "ref": "org.yaml:snakeyaml:1.29",
+    "id": "GHSA-c4r9-r8fh-9vj2",
+    "source": {
+      "url": "https://arxiv.org/pdf/2306.05534.pdf",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 6.5,
+        "impact": 3.6,
+        "exploitability": 2.8
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 121
+    }, {
+      "cwe": 787
+    }],
+    "description": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-38749"]
+  }, {
+    "ref": "org.yaml:snakeyaml:1.29",
+    "id": "GHSA-hhhw-99gj-p3c3",
+    "source": {
+      "url": "https://bitbucket.org/snakeyaml/snakeyaml/issues/526/stackoverflow-oss-fuzz-47027",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 5.5,
+        "impact": 3.6,
+        "exploitability": 1.8
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 121
+    }, {
+      "cwe": 787
+    }],
+    "description": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-38750"]
+  }, {
+    "ref": "org.yaml:snakeyaml:1.29",
+    "id": "GHSA-mjmj-j48q-9wg2",
+    "source": {
+      "url": "https://github.com/google/security-research/security/advisories/GHSA-mjmj-j48q-9wg2",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 8.3,
+        "impact": 5.5,
+        "exploitability": 2.8
+      },
+      "severity": "HIGH",
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L"
+    }],
+    "cwes": [{
+      "cwe": 20
+    }, {
+      "cwe": 502
+    }],
+    "description": "SnakeYaml Constructor Deserialization Remote Code Execution",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-1471"]
+  }, {
+    "ref": "org.yaml:snakeyaml:1.29",
+    "id": "GHSA-w37g-rhq8-7m4j",
+    "source": {
+      "url": "https://bitbucket.org/snakeyaml/snakeyaml/commits/e230a1758842beec93d28eddfde568c21774780a",
+      "name": "WEB"
+    },
+    "ratings": [{
+      "score": {
+        "base": 6.5,
+        "impact": 3.6,
+        "exploitability": 2.8
+      },
+      "method": "CVSSv3",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }],
+    "cwes": [{
+      "cwe": 121
+    }, {
+      "cwe": 787
+    }],
+    "description": "Snakeyaml vulnerable to Stack overflow leading to denial of service",
+    "advisories": ["https://nvd.nist.gov/vuln/detail/CVE-2022-41854"]
+  }]
+}
