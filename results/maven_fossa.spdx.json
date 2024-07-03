@@ -1,0 +1,891 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2024-07-03T09:06:59Z",
+    "creators": [
+      "Organization: crafter.birne@gmx.de",
+      "Tool: FOSSA v0.12.0"
+    ],
+    "licenseListVersion": "3.23",
+    "documentDescribes": [
+      "SPDXRef-mvn-commons-codec-commons-codec-1.15",
+      "SPDXRef-mvn-commons-io-commons-io-2.11.0",
+      "SPDXRef-mvn-org.apache.commons-commons-lang3-3.12.0",
+      "SPDXRef-mvn-commons-logging-commons-logging-1.2",
+      "SPDXRef-mvn-org.apache.httpcomponents-httpclient-4.5.13",
+      "SPDXRef-mvn-commons-collections-commons-collections-3.2.2",
+      "SPDXRef-mvn-com.google.code.gson-gson-2.8.8",
+      "SPDXRef-mvn-com.google.guava-guava-31.0.1-jre",
+      "SPDXRef-mvn-org.hibernate-hibernate-core-5.5.7.Final",
+      "SPDXRef-mvn-com.fasterxml.jackson.core-jackson-databind-2.13.0",
+      "SPDXRef-mvn-ch.qos.logback-logback-classic-1.2.6",
+      "SPDXRef-mvn-mysql-mysql-connector-java-8.0.27",
+      "SPDXRef-mvn-org.slf4j-slf4j-api-1.7.32",
+      "SPDXRef-mvn-org.springframework.boot-spring-boot-starter-2.6.1",
+      "SPDXRef-mvn-org.springframework-spring-context-5.3.13",
+      "SPDXRef-mvn-org.springframework-spring-core-5.3.13",
+      "SPDXRef-mvn-org.springframework-spring-web-5.3.13",
+      "SPDXRef-mvn-org.springframework-spring-webmvc-5.3.13"
+    ]
+  },
+  "name": "45618/MavenEval\\-2024-07-03T09:02:31Z",
+  "documentNamespace": "https://s3.us-east-1.amazonaws.com/blob.fossa.io/FOSSA_BOMS/custom%2B45618%2FMavenEval%5C%242024-07-03T09%3A02%3A31Z",
+  "dataLicense": "CC0-1.0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-custom-45618-MavenEval-2024-07-03T09-02-31Z",
+      "name": "MavenEval\\",
+      "versionInfo": "2024-07-03T09:02:31Z",
+      "filesAnalyzed": true,
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: Custom (provided build)",
+      "licenseDeclared": "NONE",
+      "copyrightText": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7258a2f9c81df1a574c2151d693d635b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3d4dbb4c8ade441393aeb828f2e62c4d3705221d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1952fc604a712778df8731634de6067b0f1065f4457abc22249442ef14aeef75"
+        }
+      ],
+      "externalRefs": []
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-commons-codec-commons-codec-1.15",
+      "name": "Apache Commons Codec",
+      "versionInfo": "1.15",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "to their code.\"\n\tyyyy] [name of copyright owner]",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b6ef43143d942ab5ea819af24556dcd8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4537e244508010df68ecbd4a6e1bc795a193ff85"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "559e2039b2deaa1ea35f619c40cbb29eaf2b3197a95cb2b9559f158a03cc5dad"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.15"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-commons-io-commons-io-2.11.0",
+      "name": "Apache Commons IO",
+      "versionInfo": "2.11.0",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "cdfb48e829c0249e3efe42a35ab9df32"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1eff2a28d45ee3d0aa72ea1e25cd2c3d13dd90b2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "be50605e094a7b56d0efdb634f1a4daec18390e0f8707c458dc572b5a2adeab1"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-io/commons-io@2.11.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-org.apache.commons-commons-lang3-3.12.0",
+      "name": "Apache Commons Lang",
+      "versionInfo": "3.12.0",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "e6b523b05cbb3beacd4ec0f684a2416a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9576ad1cd42a688150a4a676b600836425a21e41"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "59cad259257274c8548682b5e432aee306d30a17c7272b595c68cea4ab37f3b2"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.12.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-commons-logging-commons-logging-1.2",
+      "name": "Apache Commons Logging",
+      "versionInfo": "1.2",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3b535b4efce357ccf8fa7a1ce6dd9c33"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f6d1e2e71619a941dd6f93574cd697477583b5c5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3f74fa1badea70872280098c35d22f8334ab687077954c0331750e4b9e449bc7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-logging/commons-logging@1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-org.apache.httpcomponents-httpclient-4.5.13",
+      "name": "Apache HttpClient",
+      "versionInfo": "4.5.13",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b1846aaf4ef8fabfb0f4045ffa3116ff"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a769453ba4be44c7f7a58bfc993d098fd479c1f9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7e9fff454da3dfdcf23c6937feaeff2f5133e4a3df1ce8442fe902cb2d0756dc"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-commons-collections-commons-collections-3.2.2",
+      "name": "commons-collections",
+      "versionInfo": "3.2.2",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "939c552d747c6480f50a31f062aa112a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0cd70a5e8cabd972451d23a4aa30f30dd9af0fb7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9da38d275a9cea73220a5ca5b030bfb698eeba78fac3d72d3cbec76e753e9329"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-collections/commons-collections@3.2.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-com.google.code.gson-gson-2.8.8",
+      "name": "Gson",
+      "versionInfo": "2.8.8",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.8/gson-2.8.8-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "2008 Google Inc.\n\t2010 The Guava Authors\n\t2002-2019 the original author or authors.\n\t2002-2020 the original author or authors.\n\t2002-2021 the original author or authors.\n\t2002-2017 the original author or authors.",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3408f2c5a1e3cf03a5e4db6b6090e76c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0fd81f5505c688b81d5d5ac507052b5e83722226"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "35c1236443cf8875a47a6840a09b468dd64f2c562e8dec4c06eb8968f2d925a1"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.8.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-com.google.guava-guava-31.0.1-jre",
+      "name": "Guava: Google Core Libraries for Java",
+      "versionInfo": "31.0.1-jre",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "2010 The Guava Authors\n\t2007 The Guava Authors\n\t2011 The Guava Authors",
+      "licenseInfoFromFiles": [
+        "CC0-1.0",
+        "LicenseRef-cc-pd"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "9b4e0393a8fe322803b8d3ca40eb7adf"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0f3a07a1ed09904113b374ea0b5721e63f1e5070"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9c8ba1178a6d86b8dd0e789d1622aa5ef41d5bcc88b2c1ffe2af0ad3a9ea856b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/guava@31.0.1-jre"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-org.hibernate-hibernate-core-5.5.7.Final",
+      "name": "hibernate-core - relocation",
+      "versionInfo": "5.5.7.Final",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hibernate/hibernate-core/5.5.7.Final/hibernate-core-5.5.7.Final-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "LGPL-2.1-only",
+      "copyrightText": "1999-2015 QOS.ch. All rights reserved.\n\t2017, 2021 Oracle and/or its affiliates.\n\t2008, 2020 Oracle and/or its affiliates. All rights reserved.\n\t2017, 2021 Oracle and/or its affiliates.\n\t2000-2011 INRIA, France Telecom\n\t1999-2015 QOS.ch. All rights reserved.",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause",
+        "EPL-1.0",
+        "EPL-2.0",
+        "CC0-1.0"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "8fbec794fcfcfd9777669caf6df06162"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1d5cefdd0b33ca0b8c04f0b26bce715e7525bdfb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4432e2a46cdec4336a78bae6564952ee8b75943ac9497956bf03e977cc43a54b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hibernate/hibernate-core@5.5.7.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-com.fasterxml.jackson.core-jackson-databind-2.13.0",
+      "name": "jackson-databind",
+      "versionInfo": "2.13.0",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": " yyyy] [name of copyright owner]",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "fff3112af413c58ac1d40090f74eee3f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "155f3d90f2176cc1e620309c1bc35c9717718b41"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51b4f59da14a2857b35bc1fdd8232175ffe9a64e8d8ddedfcba8ae30e3310b97"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-ch.qos.logback-logback-classic-1.2.6",
+      "name": "Logback Classic Module",
+      "versionInfo": "1.2.6",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.6/logback-classic-1.2.6-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "EPL-1.0 OR LGPL-3.0-or-later",
+      "copyrightText": "1999-2015 QOS.ch. All rights reserved.\n\t1999-2015 QOS.ch. All rights reserved.",
+      "licenseInfoFromFiles": [
+        "EPL-1.0",
+        "LGPL-2.1-only"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b28038148207a85f22cba15363295660"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "83b62d49e5bd797717dd847f749e3b9d3fa321a7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "acca580cae6386324985298cc5a4002b1cd14dd7381ff3a6d14759b183c23c0f"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-classic@1.2.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-mysql-mysql-connector-java-8.0.27",
+      "name": "mysql-connector-java",
+      "versionInfo": "8.0.27",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "GPL-2.0-only",
+      "copyrightText": "2017, 2021 Oracle and/or its affiliates.\n\t2017, 2021 Oracle and/or its affiliates.\n\t2004-2011 QOS.ch",
+      "licenseInfoFromFiles": [
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "EPL-2.0",
+        "GPL-2.0-only",
+        "LGPL-2.1-only",
+        "MIT",
+        "LicenseRef-Protobuf",
+        "LicenseRef-Unicode-DFS-2020",
+        "UPL-1.0",
+        "Apache-2.0"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "fc77d493b5b1cb1043736d9b3b84861f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b7089bf5b4b267c7dfbc274318975be362f9bf9f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9bf7d565ad1eda2b111302be7d7e668a50260bbee71b8fa18a39c8826a823483"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/mysql/mysql-connector-java@8.0.27"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-org.slf4j-slf4j-api-1.7.32",
+      "name": "SLF4J API Module",
+      "versionInfo": "1.7.32",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "MIT",
+      "copyrightText": "2004-2011 QOS.ch",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d389a68a4392936c455f0b72a28a1de1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5cfb78ec552fa092bb6ca19cbc20fdb6a706f090"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dcbf899bb9df13f6461beb169c4ad1485fb30fbe404c3528e6fcb2254c5a6e31"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.32"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-org.springframework.boot-spring-boot-starter-2.6.1",
+      "name": "spring-boot-starter",
+      "versionInfo": "2.6.1",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/2.6.1/spring-boot-starter-2.6.1-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "yyyy} {name of copyright owner}\n\t yyyy} {name of copyright owner}",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4263087c2d8f35e073e350916659781a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "82009399003b3c1396fbc00cd0c975d84cd07334"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a18a7ef2bc8a3831d89351c6f6b1c7a0b4f59de3a138e63c9e2c149958c72e8c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter@2.6.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-org.springframework-spring-context-5.3.13",
+      "name": "Spring Context",
+      "versionInfo": "5.3.13",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-context/5.3.13/spring-context-5.3.13-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "2002-2019 the original author or authors.",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "bf8e0c584a7a80226e8d0b6ede9bd92d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0b61814e154e676f5c2a409e2752553c65efe28d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6adc7971e1ae668607ec30bddf968c4b2cbb8f5ff94272bd754bbe6e038cfe3c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-context@5.3.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-org.springframework-spring-core-5.3.13",
+      "name": "Spring Core",
+      "versionInfo": "5.3.13",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-core/5.3.13/spring-core-5.3.13-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "2002-2020 the original author or authors.\n\t2000-2011 INRIA, France Telecom",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c781581fb7bbf65f0610c448a29cb2f4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5c0e9373f0d97643490321933545b8406eea9de3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ae8b12e6991f491f27f6123d1e7c0c575dc6f5eddfae68c3205195bdee83fd0d"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-core@5.3.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-org.springframework-spring-web-5.3.13",
+      "name": "Spring Web",
+      "versionInfo": "5.3.13",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-web/5.3.13/spring-web-5.3.13-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "2002-2021 the original author or authors.",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5771cd9cace35163dcf1e35f6b5a1272"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a585ce05cedcec18b58be0557a7d4d8a9dd426f9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f5c842d1347e992a6a29cb47ea8c4869c3b3170aa4d3870b517913d2f28158da"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-web@5.3.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-org.springframework-spring-webmvc-5.3.13",
+      "name": "Spring Web MVC",
+      "versionInfo": "5.3.13",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-webmvc/5.3.13/spring-webmvc-5.3.13-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "2002-2017 the original author or authors.",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ef80b6eb344b53ff9e67f5cc314e1bfe"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "06ecda4b0f9a9a0bb99b83686f52a8f911f0a5dd"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "893eecdbd6eb7728c0408a7bd87d8f999e17f98fda70740c6f57f0d127c5b7a1"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-webmvc@5.3.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "name": "de.henrik:MavenEval",
+      "versionInfo": "1.0-SNAPSHOT",
+      "downloadLocation": "NOASSERTION",
+      "comment": "Incomplete dependency",
+      "supplier": "Organization: Maven",
+      "filesAnalyzed": false
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-cc-pd",
+      "name": "cc-pd",
+      "extractedText": "The person or persons who have associated work with this document (the \"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the best of his knowledge, the work of authorship identified is in the public domain of the country from which the work is published, or (b) hereby dedicates whatever copyright the dedicators holds in the work of authorship identified below (the \"Work\") to the public domain. A certifier, moreover, dedicates any copyright interest he may have in the associated work, and for these purposes, is described as a \"dedicator\" below.\n\t\n\tA certifier has taken reasonable steps to verify the copyright status of this work. Certifier recognizes that his good faith efforts may not shield him from liability if in fact the work certified is not in the public domain.\n\t\n\tDedicator makes this dedication for the benefit of the public at large and to the detriment of the Dedicator's heirs and successors. Dedicator intends this dedication to be an overt act of relinquishment in perpetuity of all present and future rights under copyright law, whether vested or contingent, in the Work. Dedicator understands that such relinquishment of all rights includes the relinquishment of all rights to enforce (by lawsuit or otherwise) those copyrights in the Work.\n\t\n\tDedicator recognizes that, once placed in the public domain, the Work may be freely reproduced, distributed, transmitted, used, modified, built upon, or otherwise exploited by anyone for any purpose, commercial or non-commercial, and in any way, including by methods that have not yet been invented or conceived.\n"
+    },
+    {
+      "licenseId": "LicenseRef-Protobuf",
+      "name": "Protobuf",
+      "extractedText": "Copyright 2008 Google Inc.  All rights reserved.\n\t\n\tRedistribution and use in source and binary forms, with or without\n\tmodification, are permitted provided that the following conditions are\n\tmet:\n\t\n\t    * Redistributions of source code must retain the above copyright\n\tnotice, this list of conditions and the following disclaimer.\n\t    * Redistributions in binary form must reproduce the above\n\tcopyright notice, this list of conditions and the following disclaimer\n\tin the documentation and/or other materials provided with the\n\tdistribution.\n\t    * Neither the name of Google Inc. nor the names of its\n\tcontributors may be used to endorse or promote products derived from\n\tthis software without specific prior written permission.\n\t\n\tTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\t\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n\tLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n\tA PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n\tOWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n\tSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n\tLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n\tDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n\tTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n\t(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n\tOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\t\n\tCode generated by the Protocol Buffer compiler is owned by the owner\n\tof the input file used when generating it.  This code is not\n\tstandalone and requires a support library to be linked with it.  This\n\tsupport library is itself covered by the above license.\n"
+    },
+    {
+      "licenseId": "LicenseRef-Unicode-DFS-2020",
+      "name": "Unicode-DFS-2020",
+      "extractedText": "\n\t\n\t    UNICODE, INC. LICENSE AGREEMENT - DATA FILES AND SOFTWARE\n\t\n\t    See Terms of Use for definitions of Unicode Inc.'s\n\t    Data Files and Software.\n\t\n\t    NOTICE TO USER: Carefully read the following legal agreement.\n\t    BY DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING UNICODE INC.'S\n\t    DATA FILES (\"DATA FILES\"), AND/OR SOFTWARE (\"SOFTWARE\"),\n\t    YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE\n\t    TERMS AND CONDITIONS OF THIS AGREEMENT.\n\t    IF YOU DO NOT AGREE, DO NOT DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE\n\t    THE DATA FILES OR SOFTWARE.\n\t\n\t    COPYRIGHT AND PERMISSION NOTICE\n\t\n\t    Copyright © 1991-2020 Unicode, Inc. All rights reserved.\n\t    Distributed under the Terms of Use in https://www.unicode.org/copyright.html.\n\t\n\t    Permission is hereby granted, free of charge, to any person obtaining\n\t    a copy of the Unicode data files and any associated documentation\n\t    (the \"Data Files\") or Unicode software and any associated documentation\n\t    (the \"Software\") to deal in the Data Files or Software\n\t    without restriction, including without limitation the rights to use,\n\t    copy, modify, merge, publish, distribute, and/or sell copies of\n\t    the Data Files or Software, and to permit persons to whom the Data Files\n\t    or Software are furnished to do so, provided that either\n\t    (a) this copyright and permission notice appear with all copies\n\t    of the Data Files or Software, or\n\t    (b) this copyright and permission notice appear in associated\n\t    Documentation.\n\t\n\t    THE DATA FILES AND SOFTWARE ARE PROVIDED \"AS IS\", WITHOUT WARRANTY OF\n\t    ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE\n\t    WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n\t    NONINFRINGEMENT OF THIRD PARTY RIGHTS.\n\t    IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS\n\t    NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL\n\t    DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,\n\t    DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER\n\t    TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\n\t    PERFORMANCE OF THE DATA FILES OR SOFTWARE.\n\t\n\t    Except as contained in this notice, the name of a copyright holder\n\t    shall not be used in advertising or otherwise to promote the sale,\n\t    use or other dealings in these Data Files or Software without prior\n\t    written authorization of the copyright holder.\n\t\n\t\n"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-custom-45618-MavenEval-2024-07-03T09-02-31Z"
+    },
+    {
+      "spdxElementId": "SPDXRef-custom-45618-MavenEval-2024-07-03T09-02-31Z",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-custom-45618-MavenEval-2024-07-03T09-02-31Z"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-commons-codec-commons-codec-1.15"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-commons-codec-commons-codec-1.15",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-commons-io-commons-io-2.11.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-commons-io-commons-io-2.11.0",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-org.apache.commons-commons-lang3-3.12.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-org.apache.commons-commons-lang3-3.12.0",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-commons-logging-commons-logging-1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-commons-logging-commons-logging-1.2",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-org.apache.httpcomponents-httpclient-4.5.13"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-org.apache.httpcomponents-httpclient-4.5.13",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-commons-collections-commons-collections-3.2.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-commons-collections-commons-collections-3.2.2",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-com.google.code.gson-gson-2.8.8"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-com.google.code.gson-gson-2.8.8",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-com.google.guava-guava-31.0.1-jre"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-com.google.guava-guava-31.0.1-jre",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-org.hibernate-hibernate-core-5.5.7.Final"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-org.hibernate-hibernate-core-5.5.7.Final",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-com.fasterxml.jackson.core-jackson-databind-2.13.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-com.fasterxml.jackson.core-jackson-databind-2.13.0",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-ch.qos.logback-logback-classic-1.2.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-ch.qos.logback-logback-classic-1.2.6",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-mysql-mysql-connector-java-8.0.27"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-mysql-mysql-connector-java-8.0.27",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-org.slf4j-slf4j-api-1.7.32"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-org.slf4j-slf4j-api-1.7.32",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-org.springframework.boot-spring-boot-starter-2.6.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-org.springframework.boot-spring-boot-starter-2.6.1",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-org.springframework-spring-context-5.3.13"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-org.springframework-spring-context-5.3.13",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-org.springframework-spring-core-5.3.13"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-org.springframework-spring-core-5.3.13",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-org.springframework-spring-web-5.3.13"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-org.springframework-spring-web-5.3.13",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-mvn-org.springframework-spring-webmvc-5.3.13"
+    },
+    {
+      "spdxElementId": "SPDXRef-mvn-org.springframework-spring-webmvc-5.3.13",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-mvn-de.henrik-MavenEval-1.0-SNAPSHOT"
+    }
+  ]
+}
